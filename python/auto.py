@@ -7,7 +7,7 @@ import pytesseract
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 
-chrome_driver_path = 'D:\\USERS\\05056434132\\Downloads\\chromedriver_win32 (1)'
+chrome_driver_path = 'SEU_CAMINHO'
 service = Service(chrome_driver_path)
 
 driver = webdriver.Chrome(service=service)
